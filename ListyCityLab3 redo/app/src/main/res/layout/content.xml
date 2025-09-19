@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+<!--    <TextView-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:text="@string/header_text"-->
+<!--        android:textSize="30sp"-->
+<!--        android:textAlignment="center"-->
+<!--        android:paddingTop="10dp"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:background="@color/header_background_color">-->
+<!--    </TextView>-->
+    <TextView
+        android:id="@+id/city_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textSize="30sp"
+        android:text="@string/city_text" />
+    <TextView
+        android:id="@+id/province_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textSize="30sp"
+        android:text="@string/province_text" />
+</LinearLayout>
